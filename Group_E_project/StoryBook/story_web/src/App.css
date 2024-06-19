@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets/bg-1.webp);
+  background-size: cover;
+}
+
+.book-card {
+  margin: 10px;
+  width: 200px; /* 固定卡片寬度 */
+}
+
+.book-card img {
+  width: 100%;
+  height: 200px; /* 固定圖片高度 */
+  object-fit: cover; /* 確保圖片不變形 */
+}

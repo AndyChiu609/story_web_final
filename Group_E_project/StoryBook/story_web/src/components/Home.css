@@ -1,0 +1,25 @@
+.title {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  margin: 24px 0 !important;
+}
+
+.cards-wrapper {
+  gap: 18px;
+}
+
+.book-card {
+  border: 2px solid #daa520;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 16px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.book-card:hover {
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 10px 22px !important;
+  transform: scale(1.05);
+}
+
+.book-title {
+  font-size: 1.5rem !important;
+  margin: 16px 0 !important;
+}
